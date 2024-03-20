@@ -11,7 +11,17 @@
 
 ## Dasar Teori
 
-Berikan penjelasan teori terkait materi modul ini dengan bahasa anda sendiri serta susunan yang terstruktur per topiknya.
+Tipe data adalah suatu memori atau media pada komputer yang digunakan untuk menampung informasi atau data sementara. Dalam C++, terdapat 3 tipe data yang dijelaskan yaitu tipe data primitif, tipe data abstrak, dan tipe data koleksi.
+
+### 1. Tipe Data Primitif
+Tipe data primitif adalah tipe data yang sudah ditentukan oleh sistem, tipe data primitif ini disediakan oleh banyak bahasa pemrograman, perbedaannya terletak pada jumlah bit yang dialokasikan untuk setiap bit pada tipe data primitif tergantung pada bahasa pemrograman, compiler dan sistem operasinya. Contoh tipe data primitif adalah :
+- Int adalah tipe data yang digunakan untuk menyimpan bilangan bulat seperti 12, 1, 4, dan sebagainya
+- Float adalah tipe data yang digunakan untuk menyimpan bilangan desimal seperti 1.5, 2.1, 3.14, dan sebagainya
+- Char berfungsi untuk menyimpan data berupa sebuah huruf. Biasanya digunakan untuk simbol seperti A, B, C dan seterusnya
+- Bool tipe data ini digunakan untuk menyimpan nilai boolean yang hanya memiliki dua nilai yaitu true dan false
+
+### 2. Tipe Data Abstrak
+### 3. Tipe Data Koleksi
 
 ## Guided 
 
@@ -109,7 +119,7 @@ int main()
     return 0;
 }
 ```
-Kode diatas merupakan contoh program yang menggunakan tipe data abstrak, yaitu struct. Program diatas menggunakan struct `Mahasiswa` yang memuat tiga nilai yaitu name dan address yang sama-sama bertipe data character, dan ada age yang bertipe data integer. Lalu terdapat `const` pada nilai name dan adsress yang berfungsi supaya object atau variabel tidak dapat dimodifikasi. Setelah itu kita bisa mengisi data dengan membuat dua variabel yang bertipe data struct `Mahasiswa`, yaitu `mhs1` dan `mhs2`. Setelah itu kita tinggal mengisi data tersebut ke masing-masing variabel dan menampilkannya menggunakan fungsi `cout`.
+Kode diatas merupakan contoh program yang menggunakan tipe data abstrak, yaitu struct. Program diatas menggunakan struct `Mahasiswa` yang memuat tiga nilai yaitu `name` dan `address` yang sama-sama bertipe data character, dan ada `age` yang bertipe data integer. Lalu terdapat `const` pada nilai `name` dan `address` yang berfungsi supaya object atau variabel tidak dapat dimodifikasi. Setelah itu kita bisa mengisi data dengan membuat dua variabel yang bertipe data struct `Mahasiswa`, yaitu `mhs1` dan `mhs2`. Setelah itu kita tinggal mengisi data tersebut ke masing-masing variabel dan menampilkannya menggunakan fungsi `cout`.
 
 ### 3. Tipe Data Koleksi
 
@@ -264,7 +274,13 @@ int main() { //program utama atau main program
 #### Output:
 ![unguided2](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/97e4321a-800b-4c50-aa12-e5cced21af15)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Class merupakan blueprint (cetak biru) untuk menciptakan suatu instance dari objek dimana terdiri dari sekumpulan objek dengan kemiripan data / properties / attributes, fungsi / behavior / method dan relasi ke objek lain. Permograman C++ memungkinkan pembuatan class lebih dari 1. Ketika data dan fungsi yang terkait disimpan di dalam sebuah class mampu membantu mem-visualisasikan permasalahan yang kompleks dengan efisien dan efektif.[1] 
+
+Structures (struct) pada C++ adalah keyword di bahasa pemrograman C++ yang dapat digunakan untuk mengelompokkan data dan fungsi. Struct dapat mengelompokkan data/variabel – variabel dan fungsi – fungsi yang saling berhubungan dalam satu nama. Variabel – variabel di dalam struct dapat disebut dengan anggota dari struct. Anggota dari struct dapat memiliki tipe data yang berbeda satu sama lain. Tidak seperti array yang semua anggotanya memiliki tipe data yang sama. Struct menjadi tipe data baru yang mengelompokkan anggota anggotanya. Lalu, anggotanya dapat diakses melalui struct tersebut.[2]
+
+Struct mirip dengan class. Keduanya sama – sama mengelompokkan data dan fungsi. Perbedaan antara keduanya, diantaranya: default member access struct adalah public sedangkan default member access class adalah private, struct tidak dapat digunakan sebagai parent di pewarisan sedangkan class dapat digunakan sebagai parent di pewarisan, dan masih banyak lagi. [2]
+
+Contoh program yang menggunakan struct yaitu program diatas. Program diatas mengandung tipe data `struct` dengan variabel `figure`. Di dalam variabel `figure`, terdapat variabel `name` yang mempunyai tipe data character dan `age` yang bertipe data integer. Lalu kita membuat `class` dengan variabel `character` yang berisikan variabel `species`, `citizenship`, dan `pets` yang bertipe data string dengan akses public. Lalu kita masukkan nilainya pada main program dengan cara membuat variabel baru yang dinamakan `one` untuk memasukkan data pada struct dan `two` untuk variabel untuk memasukan data ke dalam `class`. Setelah dimasukan kita bisa menampilkannya menggunakan variabel `cout`.
 
 ### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map
 
@@ -297,7 +313,9 @@ int main() { //main program
 #### Output:
 ![unguided3](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/15d570e5-931f-4ec8-848d-3a3c189af3c3)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Kode diatas merupakan contoh program yang menggunakan fungsi map. Pertama kita deklarasikan dulu map nya dengan menggunakan `#include <map>`, lalu pada main program kita menggunakan fungsi map dengan menginputkan `<int, string> character`. Code tersebut digunakan untuk membuat map dengan key int yang bertipe data string dengan nama variabel `character`. Lalu kita tinggal menambahkan datanya ke dalam variabel `character` dan menampilkannya menggunakan fungsi `cout`.
+
+Perbedaan antara map dan array adalah array digunakan untuk menyelesaikan masalah matriks, mudah dalam menerapkan algoritma sorting, penjadwalan CPU, diterapkan sebagai tabel pencarian di komputer. Map digunakan ketika kita ingin menghasilkan array baru berdasarkan array asli.
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
