@@ -229,6 +229,9 @@ Setelah selesai membuat variabel yang akan digunakan untuk mengonversikan suhu, 
 
 Kesimpulan dari materi tipe data primitif ini adalah tipe data ini merupakan tipe data yang sederhana, karena tipe data ini merupakan tipe data bawaan dari bahasa pemrograman. Tipe data ini bisa menyimpan niali seperti digit, byte, ataupun karakter. Namun, tipe data primitif tidak bisa menjangkau data kompleks yang memiliki tingkat kerumitan tinggi.
 
+#### Full code Screenshot:
+![fullcode 1](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/3b214017-005e-4ea3-a5c0-74dd2d74718a)
+
 ### 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya
 
 ```C++
@@ -288,6 +291,9 @@ Struct mirip dengan class. Keduanya sama – sama mengelompokkan data dan fungsi
 
 Contoh program yang menggunakan struct yaitu program diatas. Program diatas mengandung tipe data `struct` dengan variabel `figure`. Di dalam variabel `figure`, terdapat variabel `name` yang mempunyai tipe data character dan `age` yang bertipe data integer. Lalu kita membuat `class` dengan variabel `character` yang berisikan variabel `species`, `citizenship`, dan `pets` yang bertipe data string dengan akses public. Lalu kita masukkan nilainya pada main program dengan cara membuat variabel baru yang dinamakan `one` untuk memasukkan data pada struct dan `two` untuk variabel untuk memasukan data ke dalam `class`. Setelah dimasukan kita bisa menampilkannya menggunakan variabel `cout`.
 
+#### Full code Screenshot:
+![fullcode 2](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/ce40f5df-da93-467c-808b-ea470b432e5e)
+
 ### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map
 
 ```C++
@@ -322,6 +328,9 @@ int main() { //main program
 Kode diatas merupakan contoh program yang menggunakan fungsi map. Pertama kita deklarasikan dulu map nya dengan menggunakan `#include <map>`, lalu pada main program kita menggunakan fungsi map dengan menginputkan `<int, string> character`. Code tersebut digunakan untuk membuat map dengan key int yang bertipe data string dengan nama variabel `character`. Lalu kita tinggal menambahkan datanya ke dalam variabel `character` dan menampilkannya menggunakan fungsi `cout`.
 
 Perbedaan antara map dan array adalah array digunakan untuk menyelesaikan masalah matriks, mudah dalam menerapkan algoritma sorting, penjadwalan CPU, diterapkan sebagai tabel pencarian di komputer. Map digunakan ketika kita ingin menghasilkan array baru berdasarkan array asli.
+
+#### Full code Screenshot:
+![fullcode 3](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/6fc913fe-5cd8-47c6-aa97-cdfaf14d4611)
 
 ## Kesimpulan
 Pada modul 1 guided ini kita belajar mengenai tipe data yang ada pada bahasa C++. Ada 3 tipe data yang ada yaitu tipe data primitif, tipe data abstrak, dan tipe data koleksi. Tipe data primitif adalah tipe data yang sudah ditentukan oleh sistem. Untuk tipe data abstrak merupakan tipe data yang dibentuk oleh programer itu sendiri. Pada tipe data abstrak bisa berisi banyak tipe data, jadi nilainya bisa lebih dari satu dan beragam tipe data, dan yang terakhir tipe data koleksi adalah tipe data yang digunakan untuk mengelompokkan dan menyimpan beberapa nilai atau objek secara bersamaan.
