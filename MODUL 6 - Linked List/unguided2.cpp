@@ -145,9 +145,9 @@ int main() {
         cout << "5. Hapus Data Urutan Tertentu" << endl;
         cout << "6. Hapus Seluruh Data" << endl;
         cout << "7. Tampilkan Data" << endl;
-        cout << "0. Exit" << endl;
+        cout << "8. Exit" << endl;
 
-        cout << "\nMasukan pilihan [1-7]: ";
+        cout << "\nMasukan pilihan [1-8]: ";
         cin >> choice;
 
         switch (choice) {
@@ -227,7 +227,7 @@ int main() {
                 list.tampil();
                 break;
             }
-            case 0:
+            case 8:
             {
                 break;
             }
@@ -237,7 +237,7 @@ int main() {
                 break;
             }
             }
-        } while (choice != 0);
+        } while (choice != 8);
 
-    return 0;
+    return 8;
 }
