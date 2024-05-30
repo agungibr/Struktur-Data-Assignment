@@ -530,3 +530,5 @@ Lalu untuk unguided kita belajar mengenai membuat program rekursif langsung dan 
 
 ## Referensi
 [1] Karumanchi, N. (2016). Data Structures and algorithms made easy: Concepts, problems, Interview Questions. CareerMonk Publications.
+
+[2] Mailund, T. (2019). The Joys of Hashing: Hash Table Programming with C. Apress.
