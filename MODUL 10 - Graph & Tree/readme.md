@@ -303,7 +303,7 @@ int main() {
 }
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
+![unguided1](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/94e294ce-398e-4299-b5ba-6afbaac686dd)
 
 Kode di atas digunakan untuk menampilkan program graf dengan menggunakan inputan dari user. Function `tampilGraph_2311110067` didefinisikan untuk menampilkan graf dalam format yang rapi. Fungsi ini menerima dua parameter: sebuah vektor `simpul` yang berisi nama-nama simpul dan sebuah matriks 2D `busur` yang berisi bobot antara simpul-simpul tersebut. Dalam fungsi ini, nama-nama simpul dicetak sebagai header kolom, diikuti oleh baris-baris yang menampilkan nama simpul serta bobot-bobot yang terhubung dengan simpul-simpul lainnya. Di dalam fungsi `main`, program dimulai dengan meminta pengguna untuk memasukkan jumlah simpul. Jumlah ini kemudian digunakan untuk menginisialisasi vektor `simpul` dan matriks 2D `busur` dengan ukuran yang sesuai. Pengguna kemudian diminta untuk memasukkan nama-nama simpul, yang disimpan dalam vektor `simpul`.
 
@@ -433,7 +433,18 @@ int main() { //main program
 }
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
+
+- Tambah simpul
+![tambah](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/63dadef2-9554-4eec-b1f3-c6e7871b5d82)
+
+- Pre-Order
+![preorder](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/99b908cd-fe39-44ef-879b-7265bd8aaa8d)
+
+- In-Order
+![inorder](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/9882dd85-932a-406d-aa2e-67242b0dd893)
+
+- Post-Order
+![postorder](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/944c6c13-092d-42a1-8740-cff320e36e4b)
 
 Kode di atas digunakan untuk mencetak modifikasi dari program guided 2 mengenai tree. Struktur `TreeNode` didefinisikan untuk merepresentasikan setiap simpul dalam pohon, dengan atribut nilai `value`, serta pointer ke anak kiri `left` dan anak kanan `right`. Fungsi `createNode` digunakan untuk membuat simpul baru, sementara fungsi `insertNode` digunakan untuk menambahkan simpul baru ke pohon, berdasarkan arah yang dipilih pengguna (kiri atau kanan). Program utama dimulai dengan inisialisasi akar pohon sebagai `nullptr`. Dalam sebuah loop, pengguna disajikan dengan menu yang memungkinkan mereka untuk menambahkan simpul baru atau menampilkan pohon dalam berbagai urutan. Saat pengguna memilih untuk menambahkan simpul, program meminta mereka untuk menentukan arah (kiri atau kanan) untuk setiap simpul baru relatif terhadap simpul yang ada.
 
