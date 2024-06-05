@@ -18,7 +18,7 @@ Graf atau graph adalah struktur data yang digunakan untuk merepresentasikan hubu
 
 Dimana G adalah Graph, V adalah simpul atau vertex dan E sebagai sisi atau edge. Dapat digambarkan: 
 ![graf 1](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/87b05b89-871e-4c70-a995-04384658c5a7)
-Graph dapat digunakan dalam berbagai aplikasi, seperti jaringan sosial, pemetaan jalan, dan pemodelan data. 
+<br>Graph dapat digunakan dalam berbagai aplikasi, seperti jaringan sosial, pemetaan jalan, dan pemodelan data.</br> 
 
 #### Jenis-Jenis Graf
 ![graf2](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/f8e8ecf3-1105-4146-b254-3501866b1fc1)
@@ -43,7 +43,7 @@ Dalam ilmu komputer, pohon/tree adalah struktur data yang sangat umum dan kuat y
 
 Binary tree atau pohon biner merupakan struktur data pohon akan tetapi setiap simpul dalam pohon diprasyaratkan memiliki simpul satu level di bawahnya (child)tidak lebih dari 2 simpul, artinya jumlah child yang diperbolehkan yakni 0, 1, dan 2. Gambar 1, menunjukkan contoh dari struktur data binary tree.
 ![tree3](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/13662815-72ff-43b5-9fa6-f8b23e903e47)
-Membuat struktur data binary tree dalam suatu program (berbahasa C++) dapat menggunakan struct yang memiliki 2 buah pointer, seperti halnya double linked list.
+<br>Membuat struktur data binary tree dalam suatu program (berbahasa C++) dapat menggunakan struct yang memiliki 2 buah pointer, seperti halnya double linked list.</br>
 ![tree4](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/79c9e48c-7244-489e-a753-196483b504e6)
 
 #### Operasi pada Tree
@@ -58,30 +58,30 @@ Membuat struktur data binary tree dalam suatu program (berbahasa C++) dapat meng
 - Characteristic: digunakan untuk mengetahui karakteristik dari suatu tree. Yakni size, height, serta average lenght-nya.
 - Traverse: digunakan untuk mengunjungi seluruh node-node pada tree dengan cara traversal. Terdapat 3 metode traversal yang dibahas dalam modul ini yakni Pre-Order, In-Order, dan Post-Order.
 
-##### 1. Pre-Order
+#### 1. Pre-Order
 Penelusuran secara pre-order memiliki alur:
 - Cetak data pada simpul root
 - Secara rekursif mencetak seluruh data pada subpohon kiri
 - Secara  rekursif mencetak seluruh data pada subpohon kanan dapat kita turunkan rumus penelusuran menjadi:
 ![tree5](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/6ff06411-5d3c-4525-b002-4974dc2c9fb8)
-###### Alur Pre-Order
+##### Alur Pre-Order
 ![tree6](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/feeb8f2e-6088-4c7e-8842-503b407d8cf1)
 ![tree7](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/cde5b0c5-136a-427e-b867-06d9399fbf28)
 
-##### 2. In-Order
+#### 2. In-Order
 Penelusuran secara in-order memiliki alur:
 - Secara rekursif mencetak seluruh data pada subpohon kiri
 - Cetak data pada root
 - Secara  rekursif mencetak seluruh data pada subpohon kanan dapat kita turunkan rumus penelusuran menjadi:
 ![tree8](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/fe6c0003-a361-424e-af95-6f5a16a78238)
 
-##### 3. Post-Order
+#### 3. Post-Order
 Penelusuran secara in-order memiliki alur:
 - Secara rekursif mencetak seluruh data pada subpohon kiri
 - Secara rekursif mencetak seluruh data pada subpohon kanan
 - Cetak data pada root
 Dapat kita turunkan rumus penelusuran menjadi:
-![tree9](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/3ed0ca7e-a186-41a6-a7df-d16f4fec9f05)
+<br>![tree9](https://github.com/agungibr/Struktur-Data-Assignment/assets/91455543/3ed0ca7e-a186-41a6-a7df-d16f4fec9f05)</br>
 
 
 ## Guided 
